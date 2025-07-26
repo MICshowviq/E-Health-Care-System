@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="521.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AllDoctorsController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane id="AnchorPane" layoutX="-10.0" layoutY="-11.0" prefHeight="532.0" prefWidth="610.0" style="-fx-background-color: #00BFFF#00BFFF;">
+               <children>
+                  <ImageView fitHeight="532.0" fitWidth="610.0" opacity="0.5">
+                     <image>
+                        <Image url="@2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="52.0" layoutY="18.0" prefHeight="62.0" prefWidth="173.0" text="INSHO Health" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Narrow Bold" size="31.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="65.0" prefHeight="23.0" prefWidth="164.0" text="A portal for e-health care" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Narrow" size="18.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="52.0" layoutY="93.0" prefHeight="40.0" prefWidth="500.0" style="-fx-background-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;">
+                     <children>
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="23.0" layoutY="9.0" lineSpacing="10.0" onAction="#homeButtonPushed" text="HOME" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="89.0" layoutY="8.0" lineSpacing="10.0" onAction="#aboutUsButtonPushed" text="ABOUT US" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="274.0" layoutY="8.0" lineSpacing="10.0" onAction="#allDoctorsButtonPushed" text="ALL DOCTORS" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="386.0" layoutY="8.0" lineSpacing="10.0" onAction="#contactUsButtonPushed" text="CONTACT US" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="184.0" layoutY="8.0" lineSpacing="10.0" onAction="#registerButtonPushed" text="REGISTER" textAlignment="CENTER" underline="true" />
+                     </children>
+                  </AnchorPane>
+                  <Hyperlink layoutX="476.0" layoutY="12.0" onAction="#adminButtonPushed" text="Admin Login" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Hyperlink>
+                  <Line endX="-57.5" endY="9.0" layoutX="532.0" layoutY="29.0" startX="-57.5" startY="-15.0" stroke="WHITE" />
+                  <Hyperlink layoutX="391.0" layoutY="12.0" onAction="#patientButtonPushed" text="Patient Login" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Hyperlink>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="53.0" layoutY="145.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@8.jpg" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="230.0" layoutY="145.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@8%202.jpg" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="403.0" layoutY="145.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@9.jpg" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="53.0" layoutY="342.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@10.jpg" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="403.0" layoutY="342.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@11.jpg" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="230.0" layoutY="342.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@12.jpg" />
+                     </image>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="80.0" layoutY="295.0" text="Dr. Phoebe" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="264.0" layoutY="295.0" text="Dr. Hasan" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="436.0" layoutY="295.0" text="Dr. Susan" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="88.0" layoutY="492.0" text="Dr. Peter" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="265.0" layoutY="492.0" text="Dr. Alicia" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="436.0" layoutY="492.0" text="Dr. Robert" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
