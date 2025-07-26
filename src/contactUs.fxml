@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="521.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ContactUsController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane id="AnchorPane" layoutX="-10.0" layoutY="-11.0" prefHeight="532.0" prefWidth="610.0" style="-fx-background-color: #00BFFF#00BFFF;">
+               <children>
+                  <ImageView fitHeight="532.0" fitWidth="610.0" mouseTransparent="true" opacity="0.5">
+                     <image>
+                        <Image url="@2.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="52.0" layoutY="18.0" prefHeight="62.0" prefWidth="173.0" text="INSHO Health" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Narrow Bold" size="31.0" />
+                     </font>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Label>
+                  <Label layoutX="53.0" layoutY="65.0" prefHeight="23.0" prefWidth="164.0" text="A portal for e-health care" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Narrow" size="18.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="52.0" layoutY="93.0" prefHeight="40.0" prefWidth="500.0" style="-fx-background-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;">
+                     <children>
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="23.0" layoutY="9.0" lineSpacing="10.0" onAction="#homeButtonPushed" text="HOME" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="92.0" layoutY="8.0" lineSpacing="10.0" onAction="#aboutUsButtonPushed" text="ABOUT US" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="274.0" layoutY="8.0" lineSpacing="10.0" onAction="#allDoctorsButtonPushed" text="ALL DOCTORS" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="386.0" layoutY="8.0" lineSpacing="10.0" onAction="#contactUsButtonPushed" text="CONTACT US" textAlignment="CENTER" underline="true" />
+                        <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="184.0" layoutY="8.0" lineSpacing="10.0" onAction="#registerButtonPushed" text="REGISTER" textAlignment="CENTER" underline="true" />
+                     </children>
+                  </AnchorPane>
+                  <Hyperlink layoutX="476.0" layoutY="12.0" onAction="#adminButtonPushed" text="Admin Login" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Hyperlink>
+                  <Line endX="-57.5" endY="9.0" layoutX="532.0" layoutY="29.0" startX="-57.5" startY="-15.0" stroke="WHITE" />
+                  <Hyperlink layoutX="391.0" layoutY="12.0" onAction="#patientButtonPushed" text="Patient Login" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Hyperlink>
+                  <Label alignment="CENTER" layoutX="194.0" layoutY="140.0" prefHeight="47.0" prefWidth="216.0" text="Contact Us" textFill="#072a6c">
+                     <font>
+                        <Font name="Arial Narrow Bold" size="35.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label layoutX="48.0" layoutY="175.0" prefHeight="62.0" prefWidth="509.0" text="Sleeknote uses a similar format to Broker Notes – they ask how they can help and provide links to book a demo or become a partner. If the user needs something else, they are invited to fill out the contact form. If the user needs something else, they are invited to fill out the contact." textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="175.0" layoutY="240.0" prefHeight="256.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF;">
+                     <children>
+                        <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="12.0" prefHeight="47.0" prefWidth="216.0" text="Fill up the form and our team will get back to you within 24 hours." wrapText="true">
+                           <font>
+                              <Font name="Arial Narrow" size="17.0" />
+                           </font>
+                           <effect>
+                              <Blend />
+                           </effect>
+                        </Label>
+                        <TextField layoutX="14.0" layoutY="62.0" prefHeight="26.0" prefWidth="216.0" promptText="Name" />
+                        <TextField layoutX="14.0" layoutY="98.0" prefHeight="26.0" prefWidth="216.0" promptText="E-mail" />
+                        <TextArea layoutX="14.0" layoutY="135.0" prefHeight="62.0" prefWidth="216.0" promptText="Type Your Message" />
+                        <Button layoutX="14.0" layoutY="206.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="71.0" style="-fx-background-radius: 90; -fx-background-color: #072a6c#072a6c;" text="Send" textFill="WHITE" />
+                     </children>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="512.0" prefWidth="610.0" style="-fx-background-color: #00BFFF#00BFFF;">
+         <children>
+            <AnchorPane layoutX="52.0" layoutY="346.0" prefHeight="166.0" prefWidth="500.0" style="-fx-background-color: #FFFFFF #FFFFFF;">
+               <children>
+                  <Label alignment="CENTER" layoutX="7.0" layoutY="3.0" prefHeight="34.0" prefWidth="333.0" text="About E-Health Care Management System" textFill="DEEPSKYBLUE" underline="true">
+                     <font>
+                        <Font name="Arial Narrow Bold" size="20.0" />
+                     </font>
+                     <effect>
+                        <Blend />
+                     </effect>
+                  </Label>
+                  <Label graphicTextGap="5.0" layoutX="10.0" layoutY="30.0" prefHeight="90.0" prefWidth="473.0" text="E-health grew out of a need for improved documentation and tracking of patients’ health and procedures performed on patients, particularly for reimbursement purposes, such as by insurance companies. Traditionally, health care providers kept paper records on the history and status of their patients." textAlignment="JUSTIFY" wrapText="true">
+                     <font>
+                        <Font name="Arial Narrow" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="56.0" layoutY="20.0" prefHeight="62.0" prefWidth="344.0" text="E - Health Care Management System" textFill="WHITE">
+               <font>
+                  <Font name="Arial Narrow Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="67.0" text="A portal for e-health care" textFill="WHITE">
+               <font>
+                  <Font name="Arial Narrow" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="206.0" fitWidth="500.0" layoutX="52.0" layoutY="136.0" pickOnBounds="true">
+               <image>
+                  <Image url="@1.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="52.0" layoutY="93.0" prefHeight="40.0" prefWidth="500.0" style="-fx-background-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;">
+               <children>
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="23.0" layoutY="9.0" lineSpacing="10.0" text="HOME" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="75.0" layoutY="8.0" lineSpacing="10.0" text="ABOUT US" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="229.0" layoutY="8.0" lineSpacing="10.0" text="ALL DOCTORS" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="332.0" layoutY="8.0" lineSpacing="10.0" text="LOGIN" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="386.0" layoutY="8.0" lineSpacing="10.0" text="CONTACT US" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="154.0" layoutY="8.0" lineSpacing="10.0" text="REGISTER" textAlignment="CENTER" underline="true" />
+               </children>
+            </AnchorPane>
+            <Hyperlink layoutX="476.0" layoutY="12.0" text="Admin Login" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Arial Narrow" size="15.0" />
+               </font>
+            </Hyperlink>
+            <Line endX="-57.5" endY="9.0" layoutX="532.0" layoutY="29.0" startX="-57.5" startY="-15.0" stroke="WHITE" />
+            <Hyperlink layoutX="391.0" layoutY="12.0" text="Patient Login" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Arial Narrow" size="15.0" />
+               </font>
+            </Hyperlink>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="AnchorPane" layoutY="1.0" prefHeight="512.0" prefWidth="610.0" style="-fx-background-color: #00BFFF#00BFFF;">
+         <children>
+            <HBox layoutX="131.0" layoutY="344.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="AnchorPane" prefHeight="522.0" prefWidth="610.0" style="-fx-background-color: #00BFFF#00BFFF;">
+         <children>
+            <ImageView fitHeight="532.0" fitWidth="610.0" opacity="0.5">
+               <image>
+                  <Image url="@2.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="231.0" fitWidth="500.0" layoutX="52.0" layoutY="136.0" pickOnBounds="true">
+               <image>
+                  <Image url="@1.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="18.0" prefHeight="62.0" prefWidth="173.0" text="INSHO Health" textFill="WHITE">
+               <font>
+                  <Font name="Arial Narrow Bold" size="31.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Label>
+            <Label layoutX="53.0" layoutY="65.0" prefHeight="23.0" prefWidth="164.0" text="A portal for e-health care" textFill="WHITE">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="52.0" layoutY="93.0" prefHeight="40.0" prefWidth="500.0" style="-fx-background-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;">
+               <children>
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="23.0" layoutY="9.0" lineSpacing="10.0" onAction="#homeButtonPushed" text="HOME" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="90.0" layoutY="8.0" lineSpacing="10.0" onAction="#aboutUsButtonPushed" text="ABOUT US" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="271.0" layoutY="8.0" lineSpacing="10.0" onAction="#allDoctorsButtonPushed" text="ALL DOCTORS" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="386.0" layoutY="8.0" lineSpacing="10.0" onAction="#contactUsButtonPushed" text="CONTACT US" textAlignment="CENTER" underline="true" />
+                  <Hyperlink accessibleRole="BUTTON" alignment="CENTER" layoutX="183.0" layoutY="8.0" lineSpacing="10.0" onAction="#registerButtonPushed" text="REGISTER" textAlignment="CENTER" underline="true" />
+               </children>
+            </AnchorPane>
+            <Hyperlink layoutX="476.0" layoutY="12.0" onAction="#adminButtonPushed" text="Admin Login" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Arial Narrow" size="15.0" />
+               </font>
+            </Hyperlink>
+            <Line endX="-57.5" endY="9.0" layoutX="532.0" layoutY="29.0" startX="-57.5" startY="-15.0" stroke="WHITE" />
+            <Hyperlink layoutX="391.0" layoutY="12.0" onAction="#patientButtonPushed" text="Patient Login" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="Arial Narrow" size="15.0" />
+               </font>
+            </Hyperlink>
+            <HBox layoutX="131.0" layoutY="344.0" />
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="77.0" layoutY="344.0" pickOnBounds="true">
+               <image>
+                  <Image url="@3.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="157.0" layoutX="227.0" layoutY="344.0" pickOnBounds="true">
+               <image>
+                  <Image url="@4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="143.0" layoutX="384.0" layoutY="344.0" pickOnBounds="true">
+               <image>
+                  <Image url="@3.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="97.0" layoutY="358.0" text="Qualified Doctors" textAlignment="JUSTIFY" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Label>
+            <Label layoutX="250.0" layoutY="358.0" text="Emergency Care" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Label>
+            <Label layoutX="401.0" layoutY="358.0" text="24 Hours Service" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Label>
+            <Label layoutX="98.0" layoutY="381.0" prefHeight="76.0" prefWidth="109.0" text="INSHO has a dedicated team of full time and visiting consultants to focus on important healthcare issues and research that affect patients of all ages." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="246.0" layoutY="381.0" prefHeight="76.0" prefWidth="109.0" text="INSHO has a dedicated team of full time and visiting consultants to focus on important healthcare issues and research that affect patients of all ages." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+            <Label layoutX="401.0" layoutY="381.0" prefHeight="76.0" prefWidth="109.0" text="INSHO has a dedicated team of full time and visiting consultants to focus on important healthcare issues and research that affect patients of all ages." textAlignment="JUSTIFY" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
